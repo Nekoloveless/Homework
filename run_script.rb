@@ -1,5 +1,5 @@
 require 'selenium-webdriver'
-require_relative 'my_script2'
+require_relative 'module'
 
 include RunScript
 
