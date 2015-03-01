@@ -5,15 +5,17 @@ include RunScript
 
 open_browser(:firefox)
 
-set_param('thrhnvbkuio', 'erthgyhry', 'erfgegh')
+set_param('atyiq', 'erthgyhry', 'erfgegh')
 login
 logout
 set_first_user
 
-set_param('gbhtreddf', 'tghyrewe', 'efgwefgr')
+set_param('vtriq', 'tghyrewe', 'efgwefgr')
 login
 change_pass
 create_project
 add_user
 change_role
-last
+add_version
+create_issues
+check_issues
