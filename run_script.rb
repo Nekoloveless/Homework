@@ -5,12 +5,12 @@ include RunScript
 
 open_browser(:firefox)
 
-set_param('atyiq', 'erthgyhry', 'erfgegh')
+set_param('atyioq', 'erthgyhry', 'erfgegh')
 login
 logout
 set_first_user
 
-set_param('vtriq', 'tghyrewe', 'efgwefgr')
+set_param('vtroiq', 'tghyrewe', 'efgwefgr')
 login
 change_pass
 create_project

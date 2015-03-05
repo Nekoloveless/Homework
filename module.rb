@@ -84,7 +84,7 @@ module RunScript
     sleep 1
     @driver.find_element(name: 'commit').click
     sleep 1
-  end
+  end--1
 
   def create_issues
     @i=1
@@ -92,7 +92,7 @@ module RunScript
       @driver.find_element(class: 'new-issue').click
       @driver.find_element(id: 'issue_tracker_id').click
       sleep 2
-      @driver.find_element(xpath: ".//*[@id='issue_tracker_id']/option[" + String(@i) + "]").click
+      @driver.find_element(:xpath, "//*[@id='issue_tracker_id']/option[" + String(@i) + "]").click
       sleep 2
       @driver.find_element(id: 'issue_subject').send_keys "issue " + String(@i)
       @driver.find_element(name: 'commit').click
