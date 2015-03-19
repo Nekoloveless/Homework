@@ -84,7 +84,7 @@ module RunScript
     sleep 1
     @driver.find_element(name: 'commit').click
     sleep 1
-  end--1
+  end
 
   def create_issues
     @i=1
